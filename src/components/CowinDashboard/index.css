@@ -4,6 +4,8 @@
   overflow-y: auto;
   display: flex;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .vaccination-card-container {
   padding: 15px;
@@ -31,6 +33,21 @@
   color: #cbd5e1;
   font-weight: bold;
   letter-spacing: 1px;
+}
+.failure-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-container img {
+  width: 50%;
+}
+.failure-container p {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
 }
 .loader-card {
   display: flex;
